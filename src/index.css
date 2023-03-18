@@ -23,6 +23,7 @@ main {
   
   height: 400px;
   width: 400px;
+  border-radius: 5px;
 
   padding: 34px;
 
@@ -74,4 +75,26 @@ main {
   font-size: 20px;
 
   cursor: pointer;
+}
+
+.instructions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.instructions h1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #2B283A;
+}
+
+.instructions p {
+  text-align: center;
+  font-family: 'Inter';
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #4A4E74;
 }

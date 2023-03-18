@@ -67,7 +67,12 @@ function App() {
   }
 
   return (<>
+
     <main>
+      <div className="instructions">
+        <h1>Tenzies</h1>
+        <p>Roll until all dice are the same. Click each die to freeze it at its current value between rolls.</p>
+      </div>
       <Dices dices={dices} onDiceClick={HandleDiceCLick}/>
       <button className="roll-btn" onClick={HandleRollClick}>Roll</button>
       {hasWon && <h1>You Won!!</h1>}
